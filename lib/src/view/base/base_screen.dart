@@ -1,7 +1,8 @@
-import 'package:example_app/src/utils/environment.dart';
+
 import 'package:flutter/material.dart';
 
 import '../../utils/constants.dart';
+import '../../utils/environment.dart';
 
 class BaseScreen extends StatefulWidget {
   const BaseScreen({super.key});

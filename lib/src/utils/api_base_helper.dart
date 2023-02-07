@@ -2,10 +2,10 @@ import 'dart:async';
 import 'dart:io';
 
 import 'package:connectivity_plus/connectivity_plus.dart';
-import 'package:example_app/src/utils/environment.dart';
 import 'package:get_it/get_it.dart';
 import 'package:http/http.dart' as http;
 import '/src/stores/base_store.dart';
+import 'environment.dart';
 
 class ApiBaseHelper {
   final String _baseUrl = Environment.apiUrl;
